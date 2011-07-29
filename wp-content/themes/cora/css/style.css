@@ -57,7 +57,8 @@ button,.button {
 p {
 	font-size:12px;
 	line-height:20px;
-	margin-bottom:15px
+	margin-bottom:15px;
+  margin-right:24px;
 }
 
 h1 {
@@ -302,6 +303,7 @@ blockquote {
 	color:#444;
 	line-height:24px;
 	padding:20px 20px 10px 45px;
+  margin-right:24px;
 	background:#e5e5e5 url(../images/quotes.png) no-repeat scroll 0 6px
 }
 
@@ -2022,7 +2024,7 @@ a.nivo-prevNav {
 }
 
 #primary {
-	width:630px
+	width:740px
 }
 
 .blogcol {
@@ -2441,8 +2443,7 @@ a.nivo-prevNav {
 
 #sidebar_right {
 	float:right;
-	width:305px;
-	margin-left:25px
+	width:220px;
 }
 
 .sidebar_content_right {
@@ -3203,8 +3204,8 @@ h3.widgettitle {
 }
 
 .widget_ads img {
-	width:125px;
-	height:125px
+	width:190px;
+	height:100px
 }
 
 .widget_ads a:hover img {

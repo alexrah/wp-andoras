@@ -74,7 +74,6 @@ else
 		
         ?>
       
-           
         
         <div class="frame">    
       
