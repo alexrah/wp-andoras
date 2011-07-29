@@ -20,7 +20,7 @@
       <?php 
 	  $image_src_array = wp_get_attachment_image_src(get_post_thumbnail_id(),'full', true);
 	  
-	  $image_src = THEME_SCRIPTS.'/timthumb.php?src='.$image_src_array[0].'&amp;h=120&amp;w=190&amp;zc=1';
+	  $image_src = THEME_SCRIPTS.'/timthumb.php?src='.$image_src_array[0].'&amp;h=120&amp;w=218&amp;zc=1';
 	  
 	  if (!has_post_thumbnail())  $image_src = THEME_SCRIPTS.'/timthumb.php?src='.THEME_IMAGES.'/post_thumbnail.png'.'&amp;h=120&amp;w=190&amp;zc=1';
 	  

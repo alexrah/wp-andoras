@@ -58,7 +58,6 @@ p {
 	font-size:12px;
 	line-height:20px;
 	margin-bottom:15px;
-  margin-right:24px;
 }
 
 h1 {
@@ -2040,7 +2039,7 @@ a.nivo-prevNav {
 	position:relative;
 	letter-spacing:normal;
 	word-spacing:normal;
-	width:190px
+	width:218px
 }
 
 .blogcol li .blog_title {
@@ -2063,7 +2062,7 @@ a.nivo-prevNav {
 
 .teaser {
 	background:#efefef url(../images/loading.gif) center center no-repeat;
-	width:190px;
+	width:218px;
 	height:120px;
 	position:relative;
 	overflow:hidden
