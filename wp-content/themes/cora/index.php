@@ -38,7 +38,11 @@ else { $layout='right'; $sidebar='left'; }
             
             
             <?php pagination(); ?>
-			    
+	      <div>
+      <?php if ( !function_exists('dynamic_sidebar') dynamic_sidebar('Post Widget') ) : ?>
+      <?php endif; ?>
+       </div>
+		    
   </div><!-- end primary -->
   
       <div id="sidebar_<?php echo $sidebar?>"> 

@@ -98,6 +98,7 @@ switch($slider){
       
         
         <div id="blog_content"><?php the_content(); ?></div>
+          <div><?php dynamic_sidebar(); ?></div>  
         <div class="clearboth"></div>
 
         

@@ -127,6 +127,7 @@ class Theme {
 		register_widget('Theme_Widget_Video');
 		
 		register_widget('Theme_Widget_Portfolio');
+    register_sidebar(array('name'=>'Post Widget',));
 		
 		if(get_option('enable_gmap')){
 			require_once (THEME_WIDGETS . '/gmap.php');
