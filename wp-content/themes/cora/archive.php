@@ -29,7 +29,7 @@ else { $layout='right'; $sidebar='left'; }
 		
 ?>
 
-<div id="sliderwrap" style="height:200px;"></div><!-- end sliderwrap -->
+<div id="sliderwrap" style="height:100px;"></div><!-- end sliderwrap -->
 </div>
 
 <?php theme_functions('heading_wrap'); ?>
