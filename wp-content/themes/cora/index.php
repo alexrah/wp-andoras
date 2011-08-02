@@ -39,7 +39,8 @@ else { $layout='right'; $sidebar='left'; }
             
             <?php pagination(); ?>
 	      <div>
-      <?php if ( !function_exists('dynamic_sidebar') dynamic_sidebar('Post Widget') ) : ?>
+      <?php if ( !function_exists('dynamic_sidebar') dynamic_sidebar('Post Widget Right') ) : ?>
+      <?php if ( !function_exists('dynamic_sidebar') dynamic_sidebar('Post Widget Left') ) : ?>
       <?php endif; ?>
        </div>
 		    

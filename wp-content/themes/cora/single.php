@@ -98,7 +98,10 @@ switch($slider){
       
         
         <div id="blog_content"><?php the_content(); ?></div>
-          <div><?php dynamic_sidebar(); ?></div>  
+          <div id="post_widget>">
+            <div class="one_half" id="post_widget_left" ><?php dynamic_sidebar('Post Widget Right'); ?></div>  
+            <div class="one_half last" id="post_widget_right" ><?php dynamic_sidebar('Post widget Left'); ?></div>
+          </div> <!--end of post_widget -->
         <div class="clearboth"></div>
 
         
