@@ -191,4 +191,12 @@ class Theme {
 	
 
 }
+add_filter( 'default_content', 'my_editor_content' );
+
+function my_editor_content( $content ) {
+
+$content = "<h5>[one_half]Struttura ricettiva su 3 piani. L’intervento ha presentato le problematiche impiantistiche tipiche delle strutture ad affollamento variabile. Per assicurare il massimo controllo del comfort, soprattutto nelle strutture comuni, l’impianto, realizzato nel 2004-2005, viene gestito da un innovativo comando centralizzato basato su tecnologia touch screen.[/one_half]</h5><table border='0'><tbody><tr><td colspan='2'><h4>SCHEDA TECNICA</h4></td></tr><tr><td><h4>Impianto:</h4></td><td><h4 style='text-align: right;'>VRV Daikin II</h4></td></tr><tr><td><h4>N. unitá esterne:</h4></td><td><h4 style='text-align: right;'>2</h4></td></tr><tr><td><h4>N. unitá interne:</h4></td><td><h4 style='text-align: right;'>12</h4></td></tr><tr><td><h4>Potenza HP:</h4></td><td><h4 style='text-align: right;'>20</h4></td></tr></tbody></table>";
+
+  return $content;
+}
 ?>
