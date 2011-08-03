@@ -96,7 +96,7 @@ switch($slider){
           <div id="primary" style="float:<?php echo $layout?>;">
       <?php endif;?>
       
-        
+          <h4><?php echo get_the_title() ?></h4>  
         <div id="blog_content"><?php the_content(); ?></div>
           <div class="divider_line"></div>
             <div class="divider"></div>
